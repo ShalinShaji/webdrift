@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WebDrift – Website Creation & Maintenance for Startups</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom scrollbar for smooth look */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #4f46e5;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-sans leading-relaxed">
+
+  <!-- Hero Section -->
+  <header class="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-indigo-600 to-purple-600 text-white px-6 text-center">
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-4">WebDrift</h1>
+    <p class="max-w-xl text-lg md:text-xl mb-8">
+      Transition your company seamlessly to the internet. <br />
+      Website creation, design, and maintenance tailored for startups and small businesses.
+    </p>
+    <a href="#contact" class="inline-block bg-white text-indigo-700 font-semibold px-8 py-3 rounded-full hover:bg-indigo-100 transition">Find Your Fit</a>
+  </header>
+
+  <!-- About Us -->
+  <section id="about" class="max-w-5xl mx-auto px-6 py-16 text-center">
+    <h2 class="text-3xl font-bold mb-6">About WebDrift</h2>
+    <p class="text-gray-700 max-w-3xl mx-auto text-lg leading-relaxed">
+      At WebDrift, we help startups and small businesses establish a strong online presence through professional website design and reliable maintenance services. Our mission is to make your transition to the web effortless, clean, and effective.
+    </p>
+  </section>
+
+ 
+ <!-- Services -->
+<section id="services" class="bg-gray-200 py-16">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-4">Web Design & Development</h3>
+        <p class="text-gray-600">Custom, responsive websites designed to capture your brand and engage your audience.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-4">Website Maintenance</h3>
+        <p class="text-gray-600">Reliable updates, backups, and security to keep your website running smoothly.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-4">Branding & Social Media</h3>
+        <p class="text-gray-600">Consistent branding and social media strategies to boost your online visibility.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-indigo-600 py-16 px-6 text-white text-center">
+    <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
+    <form action="https://formsubmit.co/shalinshaji@webdrift.com" method="POST" class="max-w-lg mx-auto space-y-6">
+      <!-- Change the action email to your own or use your backend -->
+
+      <input type="text" name="name" placeholder="Your Name" required
+        class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-300" />
+      <input type="email" name="email" placeholder="Your Email" required
+        class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-300" />
+      <textarea name="message" rows="5" placeholder="Your Message" required
+        class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-300"></textarea>
+      <button type="submit"
+        class="bg-white text-indigo-700 font-semibold px-6 py-3 rounded hover:bg-indigo-100 transition">Send Message</button>
+    </form>
+    <p class="mt-6 text-indigo-200">Or email us at <a href="mailto:shalinshaji@webdrift.com" class="underline">shalinshaji@webdrift.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-6 text-center text-gray-600 text-sm">
+    &copy; 2025 WebDrift. All rights reserved.
+  </footer>
+
+</body>
+</html>
